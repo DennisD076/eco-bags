@@ -13,6 +13,7 @@ import { Routes } from '@interfaces/routes.interface';
 import { ErrorMiddleware } from '@middlewares/error.middleware';
 import { logger, stream } from '@utils/logger';
 import bodyParser from 'body-parser';
+import { corsMiddleware } from './middlewares/cors.middelware';
 
 export class App {
   public app: express.Application;
@@ -46,7 +47,7 @@ export class App {
 
   private initializeMiddlewares() {
     this.app.use(morgan(LOG_FORMAT, { stream }));
-    this.app.use(cors({ origin: ORIGIN, credentials: CREDENTIALS }));
+    this.app.use(corsMiddleware);
     this.app.use(hpp());
     this.app.use(helmet());
     this.app.use(compression());

@@ -20,7 +20,12 @@ export const submitReceipt = async (data: ReceiptData): Promise<Response> => {
   try {
     console.log("📤 Sending receipt data to backend:", data);
 
-    const response = await axios.post(`${backendURL}/submitReceipt`, data);
+    const response = await axios.post(`${backendURL}/submitReceipt`, data, {
+      withCredentials: true,
+      headers: {
+        'Content-Type': 'application/json',
+      }
+    });
 
     console.log("✅ Backend Response:", response.data);
     return response.data;
