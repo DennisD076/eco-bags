@@ -1,0 +1,14 @@
+{
+    "build": {
+      "dockerfile": "Dockerfile.prod"
+    },
+    "deploy": {
+      "startCommand": "yarn workspaces focus --all && yarn start"
+    },
+    "service": {
+      "env": {
+        "PORT": "8080"
+      }
+    }
+  }
+  

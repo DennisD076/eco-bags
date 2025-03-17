@@ -1,0 +1,15 @@
+[phases.setup]
+cmds = [
+    "npm install -g corepack@0.24.1",
+    "corepack enable",
+    "npm install -g yarn@1.22.22"
+]
+
+[phases.install]
+cmds = ["yarn install  --no-optional"]
+
+[phases.build]
+cmds = ["yarn build"]
+
+[phases.start]
+cmds = ["yarn start"]
