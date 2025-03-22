@@ -44,20 +44,18 @@ export class OpenAIHelper {
 
   public getResponseJSONString = (response: ChatCompletion) => response.choices[0].message.content;
 
-  private cleanChatGPTJSONString = (jsonString: string) => jsonString.replace('```json', '').replace('```', '');
+  public cleanChatGPTJSONString = (jsonString: string) => jsonString.replace('```json', '').replace('```', '');
 
   public parseChatGPTJSONString = <Response>(jsonString?: string | null): Response | undefined => {
     if (!jsonString) {
-      return;
+      return undefined;
     }
-    const content = this.cleanChatGPTJSONString(jsonString);
-    if (content) {
-      try {
-        const parsed = JSON.parse(content);
-        return parsed;
-      } catch (e) {
-        console.error('Failing parsing Chat GPT response:', e);
-      }
+    const cleanedJSONString = this.cleanChatGPTJSONString(jsonString);
+    try {
+      return JSON.parse(cleanedJSONString);
+    } catch (error) {
+      console.error('Error parsing JSON:', error);
+      return undefined;
     }
   };
 }

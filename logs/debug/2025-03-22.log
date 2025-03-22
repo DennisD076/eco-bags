@@ -1,0 +1,509 @@
+2025-03-22 10:15:28 error: uncaughtException: Cannot find module './middlewares/cors.middelware'
+Require stack:
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts
+Error: Cannot find module './middlewares/cors.middelware'
+Require stack:
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:16:1)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14) | {"metadata":{"error":{"code":"MODULE_NOT_FOUND","requireStack":["/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts"]},"stack":"Error: Cannot find module './middlewares/cors.middelware'\nRequire stack:\n- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts\n- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts\n    at Function.<anonymous> (node:internal/modules/cjs/loader:1225:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._resolveFilename (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/tsconfig-paths/src/register.ts:115:36)\n    at Function._load (node:internal/modules/cjs/loader:1055:27)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n    at Module.require (node:internal/modules/cjs/loader:1311:12)\n    at require (node:internal/modules/helpers:136:16)\n    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:16:1)\n    at Module._compile (node:internal/modules/cjs/loader:1554:14)","exception":true,"date":"Sat Mar 22 2025 10:15:28 GMT+0100 (Central European Standard Time)","process":{"pid":39620,"uid":501,"gid":20,"cwd":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend","execPath":"/usr/local/bin/node","version":"v22.14.0","argv":["/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/.bin/ts-node","/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts"],"memoryUsage":{"rss":263208960,"heapTotal":130973696,"heapUsed":100328808,"external":8989529,"arrayBuffers":5076564}},"os":{"loadavg":[16.791015625,11.5791015625,7.3037109375],"uptime":522622},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":null,"line":1225,"method":null,"native":false},{"column":30,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/@cspotcode/source-map-support/source-map-support.js","function":"Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue","line":811,"method":"installedValue","native":false},{"column":36,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/tsconfig-paths/src/register.ts","function":"Module._resolveFilename","line":115,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1055,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":220,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":136,"method":null,"native":false},{"column":1,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","function":null,"line":16,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1554,"method":"_compile","native":false}]}}
+2025-03-22 10:16:03 error: uncaughtException: Cannot find module './middlewares/cors.middelware'
+Require stack:
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts
+Error: Cannot find module './middlewares/cors.middelware'
+Require stack:
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:16:1)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14) | {"metadata":{"error":{"code":"MODULE_NOT_FOUND","requireStack":["/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts"]},"stack":"Error: Cannot find module './middlewares/cors.middelware'\nRequire stack:\n- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts\n- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts\n    at Function.<anonymous> (node:internal/modules/cjs/loader:1225:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._resolveFilename (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/tsconfig-paths/src/register.ts:115:36)\n    at Function._load (node:internal/modules/cjs/loader:1055:27)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n    at Module.require (node:internal/modules/cjs/loader:1311:12)\n    at require (node:internal/modules/helpers:136:16)\n    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:16:1)\n    at Module._compile (node:internal/modules/cjs/loader:1554:14)","exception":true,"date":"Sat Mar 22 2025 10:16:03 GMT+0100 (Central European Standard Time)","process":{"pid":39839,"uid":501,"gid":20,"cwd":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend","execPath":"/usr/local/bin/node","version":"v22.14.0","argv":["/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/.bin/ts-node","/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts"],"memoryUsage":{"rss":261160960,"heapTotal":130973696,"heapUsed":98975192,"external":8989513,"arrayBuffers":5076548}},"os":{"loadavg":[12.57177734375,11.17822265625,7.3330078125],"uptime":522657},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":null,"line":1225,"method":null,"native":false},{"column":30,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/@cspotcode/source-map-support/source-map-support.js","function":"Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue","line":811,"method":"installedValue","native":false},{"column":36,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/tsconfig-paths/src/register.ts","function":"Module._resolveFilename","line":115,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1055,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":220,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":136,"method":null,"native":false},{"column":1,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","function":null,"line":16,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1554,"method":"_compile","native":false}]}}
+2025-03-22 10:16:12 error: uncaughtException: Cannot find module './middlewares/cors.middelware'
+Require stack:
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts
+Error: Cannot find module './middlewares/cors.middelware'
+Require stack:
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:16:1)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14) | {"metadata":{"error":{"code":"MODULE_NOT_FOUND","requireStack":["/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts"]},"stack":"Error: Cannot find module './middlewares/cors.middelware'\nRequire stack:\n- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts\n- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts\n    at Function.<anonymous> (node:internal/modules/cjs/loader:1225:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._resolveFilename (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/tsconfig-paths/src/register.ts:115:36)\n    at Function._load (node:internal/modules/cjs/loader:1055:27)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n    at Module.require (node:internal/modules/cjs/loader:1311:12)\n    at require (node:internal/modules/helpers:136:16)\n    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:16:1)\n    at Module._compile (node:internal/modules/cjs/loader:1554:14)","exception":true,"date":"Sat Mar 22 2025 10:16:12 GMT+0100 (Central European Standard Time)","process":{"pid":39921,"uid":501,"gid":20,"cwd":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend","execPath":"/usr/local/bin/node","version":"v22.14.0","argv":["/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/.bin/ts-node","/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts"],"memoryUsage":{"rss":251822080,"heapTotal":129400832,"heapUsed":105917176,"external":9000184,"arrayBuffers":5087219}},"os":{"loadavg":[10.79248046875,10.84228515625,7.2587890625],"uptime":522666},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":null,"line":1225,"method":null,"native":false},{"column":30,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/@cspotcode/source-map-support/source-map-support.js","function":"Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue","line":811,"method":"installedValue","native":false},{"column":36,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/tsconfig-paths/src/register.ts","function":"Module._resolveFilename","line":115,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1055,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":220,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":136,"method":null,"native":false},{"column":1,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","function":null,"line":16,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1554,"method":"_compile","native":false}]}}
+2025-03-22 10:16:37 info: ================================= | {"metadata":{}}
+2025-03-22 10:16:37 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 10:16:37 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 10:16:37 info: ================================= | {"metadata":{}}
+2025-03-22 10:17:28 info: ================================= | {"metadata":{}}
+2025-03-22 10:17:28 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 10:17:28 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 10:17:28 info: ================================= | {"metadata":{}}
+2025-03-22 10:19:51 info: ================================= | {"metadata":{}}
+2025-03-22 10:19:51 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 10:19:51 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 10:19:51 info: ================================= | {"metadata":{}}
+2025-03-22 10:20:44 info: Received request from origin: http://localhost:8082 | {"metadata":{}}
+2025-03-22 10:20:44 info: Development mode: allowing all origins | {"metadata":{}}
+2025-03-22 10:20:44 info: ::1 - - [22/Mar/2025:09:20:44 +0000] "OPTIONS //submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 10:20:44 info: Received request from origin: http://localhost:8082 | {"metadata":{}}
+2025-03-22 10:20:44 info: Development mode: allowing all origins | {"metadata":{}}
+2025-03-22 10:20:44 info: ::1 - - [22/Mar/2025:09:20:44 +0000] "POST //submitReceipt HTTP/1.1" 404 154 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 10:20:54 info: Received request from origin: http://localhost:8082 | {"metadata":{}}
+2025-03-22 10:20:54 info: Development mode: allowing all origins | {"metadata":{}}
+2025-03-22 10:20:54 info: ::1 - - [22/Mar/2025:09:20:54 +0000] "POST //submitReceipt HTTP/1.1" 404 154 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 12:43:27 info: ================================= | {"metadata":{}}
+2025-03-22 12:43:27 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 12:43:27 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 12:43:27 info: ================================= | {"metadata":{}}
+2025-03-22 12:43:41 info: Received request from origin: http://localhost:8082 | {"metadata":{}}
+2025-03-22 12:43:41 info: Development mode: allowing all origins | {"metadata":{}}
+2025-03-22 12:43:41 info: ::1 - - [22/Mar/2025:11:43:41 +0000] "POST //submitReceipt HTTP/1.1" 404 154 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 12:45:17 info: ================================= | {"metadata":{}}
+2025-03-22 12:45:17 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 12:45:17 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 12:45:17 info: ================================= | {"metadata":{}}
+2025-03-22 12:45:29 info: Received request from origin: http://localhost:8082 | {"metadata":{}}
+2025-03-22 12:45:29 info: Development mode: allowing all origins | {"metadata":{}}
+2025-03-22 12:45:29 info: ::1 - - [22/Mar/2025:11:45:29 +0000] "POST //submitReceipt HTTP/1.1" 404 154 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 12:47:20 info: ================================= | {"metadata":{}}
+2025-03-22 12:47:20 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 12:47:20 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 12:47:20 info: ================================= | {"metadata":{}}
+2025-03-22 12:47:32 info: Received request from origin: http://localhost:8082 | {"metadata":{}}
+2025-03-22 12:47:32 info: Development mode: allowing all origins | {"metadata":{}}
+2025-03-22 12:47:32 info: ::1 - - [22/Mar/2025:11:47:32 +0000] "POST //submitReceipt HTTP/1.1" 404 154 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 12:48:36 info: Received request from origin: http://localhost:8082 | {"metadata":{}}
+2025-03-22 12:48:36 info: Development mode: allowing all origins | {"metadata":{}}
+2025-03-22 12:48:36 info: ::1 - - [22/Mar/2025:11:48:36 +0000] "OPTIONS /submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 12:48:36 info: Received request from origin: http://localhost:8082 | {"metadata":{}}
+2025-03-22 12:48:36 info: Development mode: allowing all origins | {"metadata":{}}
+2025-03-22 12:48:36 info: ::1 - - [22/Mar/2025:11:48:36 +0000] "POST /submitReceipt HTTP/1.1" 404 153 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 12:48:41 info: Received request from origin: http://localhost:8082 | {"metadata":{}}
+2025-03-22 12:48:41 info: Development mode: allowing all origins | {"metadata":{}}
+2025-03-22 12:48:41 info: ::1 - - [22/Mar/2025:11:48:41 +0000] "POST /submitReceipt HTTP/1.1" 404 153 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 12:49:47 info: Received request from origin: http://localhost:8082 | {"metadata":{}}
+2025-03-22 12:49:47 info: Development mode: allowing all origins | {"metadata":{}}
+2025-03-22 12:49:47 info: ::1 - - [22/Mar/2025:11:49:47 +0000] "POST /submitReceipt HTTP/1.1" 404 153 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 12:50:42 info: ================================= | {"metadata":{}}
+2025-03-22 12:50:42 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 12:50:42 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 12:50:42 info: ================================= | {"metadata":{}}
+2025-03-22 12:51:18 info: ================================= | {"metadata":{}}
+2025-03-22 12:51:18 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 12:51:18 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 12:51:18 info: ================================= | {"metadata":{}}
+2025-03-22 12:51:30 info: Received request from origin: http://localhost:8082 | {"metadata":{}}
+2025-03-22 12:51:30 info: Development mode: allowing all origins | {"metadata":{}}
+2025-03-22 12:51:30 info: ::1 - - [22/Mar/2025:11:51:30 +0000] "POST /submitReceipt HTTP/1.1" 404 153 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 12:52:04 info: ================================= | {"metadata":{}}
+2025-03-22 12:52:04 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 12:52:04 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 12:52:04 info: ================================= | {"metadata":{}}
+2025-03-22 12:52:11 info: Received request from origin: http://localhost:8082 | {"metadata":{}}
+2025-03-22 12:52:11 info: Development mode: allowing all origins | {"metadata":{}}
+2025-03-22 12:52:11 info: ::1 - - [22/Mar/2025:11:52:11 +0000] "POST /submitReceipt HTTP/1.1" 404 153 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 12:52:16 info: Received request from origin: http://localhost:8082 | {"metadata":{}}
+2025-03-22 12:52:16 info: Development mode: allowing all origins | {"metadata":{}}
+2025-03-22 12:52:16 info: ::1 - - [22/Mar/2025:11:52:16 +0000] "POST /submitReceipt HTTP/1.1" 404 153 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 12:52:39 info: Received request from origin: http://localhost:8082 | {"metadata":{}}
+2025-03-22 12:52:39 info: Development mode: allowing all origins | {"metadata":{}}
+2025-03-22 12:52:39 info: ::1 - - [22/Mar/2025:11:52:39 +0000] "POST /submitReceipt HTTP/1.1" 404 153 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 12:52:51 info: ================================= | {"metadata":{}}
+2025-03-22 12:52:51 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 12:52:51 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 12:52:51 info: ================================= | {"metadata":{}}
+2025-03-22 12:53:07 info: ================================= | {"metadata":{}}
+2025-03-22 12:53:07 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 12:53:07 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 12:53:07 info: ================================= | {"metadata":{}}
+2025-03-22 12:53:14 info: Received request from origin: http://localhost:8082 | {"metadata":{}}
+2025-03-22 12:53:14 info: Development mode: allowing all origins | {"metadata":{}}
+2025-03-22 12:53:14 info: ::1 - - [22/Mar/2025:11:53:14 +0000] "POST /submitReceipt HTTP/1.1" 404 153 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 12:53:22 info: Request with no origin received | {"metadata":{}}
+2025-03-22 12:53:22 info: ::1 - - [22/Mar/2025:11:53:22 +0000] "GET /submitReceipt HTTP/1.1" 404 152 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 12:54:23 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js:217:11)
+    at App.initializeMiddlewares (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:50:14)
+    at new App (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:29:10)
+    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts:7:13)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Module.m._compile (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1618:23)
+    at node:internal/modules/cjs/loader:1706:10
+    at Object.require.extensions.<computed> [as .ts] (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12) | {"metadata":{"error":{},"stack":"TypeError: app.use() requires a middleware function\n    at Function.use (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js:217:11)\n    at App.initializeMiddlewares (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:50:14)\n    at new App (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:29:10)\n    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts:7:13)\n    at Module._compile (node:internal/modules/cjs/loader:1554:14)\n    at Module.m._compile (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1618:23)\n    at node:internal/modules/cjs/loader:1706:10\n    at Object.require.extensions.<computed> [as .ts] (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1289:32)\n    at Function._load (node:internal/modules/cjs/loader:1108:12)","exception":true,"date":"Sat Mar 22 2025 12:54:23 GMT+0100 (Central European Standard Time)","process":{"pid":42210,"uid":501,"gid":20,"cwd":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend","execPath":"/usr/local/bin/node","version":"v22.14.0","argv":["/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/.bin/ts-node","/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts"],"memoryUsage":{"rss":271974400,"heapTotal":147881984,"heapUsed":117444832,"external":9018931,"arrayBuffers":5092998}},"os":{"loadavg":[3.02001953125,2.20849609375,3.0048828125],"uptime":532157},"trace":[{"column":11,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js","function":"Function.use","line":217,"method":"use","native":false},{"column":14,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","function":"App.initializeMiddlewares","line":50,"method":"initializeMiddlewares","native":false},{"column":10,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","function":"new App","line":29,"method":null,"native":false},{"column":13,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1554,"method":"_compile","native":false},{"column":23,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts","function":"Module.m._compile","line":1618,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1706,"method":null,"native":false},{"column":12,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts","function":"Object.require.extensions.<computed> [as .ts]","line":1621,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1289,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1108,"method":"_load","native":false}]}}
+2025-03-22 12:54:28 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js:217:11)
+    at App.initializeMiddlewares (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:50:14)
+    at new App (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:29:10)
+    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts:7:13)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Module.m._compile (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1618:23)
+    at node:internal/modules/cjs/loader:1706:10
+    at Object.require.extensions.<computed> [as .ts] (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12) | {"metadata":{"error":{},"stack":"TypeError: app.use() requires a middleware function\n    at Function.use (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js:217:11)\n    at App.initializeMiddlewares (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:50:14)\n    at new App (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:29:10)\n    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts:7:13)\n    at Module._compile (node:internal/modules/cjs/loader:1554:14)\n    at Module.m._compile (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1618:23)\n    at node:internal/modules/cjs/loader:1706:10\n    at Object.require.extensions.<computed> [as .ts] (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1289:32)\n    at Function._load (node:internal/modules/cjs/loader:1108:12)","exception":true,"date":"Sat Mar 22 2025 12:54:28 GMT+0100 (Central European Standard Time)","process":{"pid":42240,"uid":501,"gid":20,"cwd":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend","execPath":"/usr/local/bin/node","version":"v22.14.0","argv":["/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/.bin/ts-node","/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts"],"memoryUsage":{"rss":277381120,"heapTotal":148144128,"heapUsed":117492800,"external":9018939,"arrayBuffers":5093006}},"os":{"loadavg":[2.93798828125,2.20458984375,2.99853515625],"uptime":532162},"trace":[{"column":11,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js","function":"Function.use","line":217,"method":"use","native":false},{"column":14,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","function":"App.initializeMiddlewares","line":50,"method":"initializeMiddlewares","native":false},{"column":10,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","function":"new App","line":29,"method":null,"native":false},{"column":13,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1554,"method":"_compile","native":false},{"column":23,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts","function":"Module.m._compile","line":1618,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1706,"method":null,"native":false},{"column":12,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts","function":"Object.require.extensions.<computed> [as .ts]","line":1621,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1289,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1108,"method":"_load","native":false}]}}
+2025-03-22 12:54:37 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js:217:11)
+    at App.initializeMiddlewares (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:50:14)
+    at new App (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:29:10)
+    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts:7:13)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Module.m._compile (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1618:23)
+    at node:internal/modules/cjs/loader:1706:10
+    at Object.require.extensions.<computed> [as .ts] (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12) | {"metadata":{"error":{},"stack":"TypeError: app.use() requires a middleware function\n    at Function.use (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js:217:11)\n    at App.initializeMiddlewares (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:50:14)\n    at new App (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:29:10)\n    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts:7:13)\n    at Module._compile (node:internal/modules/cjs/loader:1554:14)\n    at Module.m._compile (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1618:23)\n    at node:internal/modules/cjs/loader:1706:10\n    at Object.require.extensions.<computed> [as .ts] (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1289:32)\n    at Function._load (node:internal/modules/cjs/loader:1108:12)","exception":true,"date":"Sat Mar 22 2025 12:54:37 GMT+0100 (Central European Standard Time)","process":{"pid":42319,"uid":501,"gid":20,"cwd":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend","execPath":"/usr/local/bin/node","version":"v22.14.0","argv":["/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/.bin/ts-node","/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts"],"memoryUsage":{"rss":278396928,"heapTotal":147619840,"heapUsed":117200336,"external":9018851,"arrayBuffers":5092918}},"os":{"loadavg":[3.16162109375,2.279296875,3.015625],"uptime":532171},"trace":[{"column":11,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js","function":"Function.use","line":217,"method":"use","native":false},{"column":14,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","function":"App.initializeMiddlewares","line":50,"method":"initializeMiddlewares","native":false},{"column":10,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","function":"new App","line":29,"method":null,"native":false},{"column":13,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1554,"method":"_compile","native":false},{"column":23,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts","function":"Module.m._compile","line":1618,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1706,"method":null,"native":false},{"column":12,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts","function":"Object.require.extensions.<computed> [as .ts]","line":1621,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1289,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1108,"method":"_load","native":false}]}}
+2025-03-22 12:55:03 info: ================================= | {"metadata":{}}
+2025-03-22 12:55:03 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 12:55:03 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 12:55:03 info: ================================= | {"metadata":{}}
+2025-03-22 12:55:05 info: ================================= | {"metadata":{}}
+2025-03-22 12:55:05 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 12:55:05 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 12:55:05 info: ================================= | {"metadata":{}}
+2025-03-22 12:55:09 info: ================================= | {"metadata":{}}
+2025-03-22 12:55:09 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 12:55:09 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 12:55:09 info: ================================= | {"metadata":{}}
+2025-03-22 12:55:17 info: ::1 - - [22/Mar/2025:11:55:17 +0000] "POST /submitReceipt HTTP/1.1" 404 153 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 12:56:05 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js:217:11)
+    at App.initializeMiddlewares (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:50:14)
+    at new App (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:29:10)
+    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts:7:13)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Module.m._compile (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1618:23)
+    at node:internal/modules/cjs/loader:1706:10
+    at Object.require.extensions.<computed> [as .ts] (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12) | {"metadata":{"error":{},"stack":"TypeError: app.use() requires a middleware function\n    at Function.use (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js:217:11)\n    at App.initializeMiddlewares (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:50:14)\n    at new App (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:29:10)\n    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts:7:13)\n    at Module._compile (node:internal/modules/cjs/loader:1554:14)\n    at Module.m._compile (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1618:23)\n    at node:internal/modules/cjs/loader:1706:10\n    at Object.require.extensions.<computed> [as .ts] (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1289:32)\n    at Function._load (node:internal/modules/cjs/loader:1108:12)","exception":true,"date":"Sat Mar 22 2025 12:56:05 GMT+0100 (Central European Standard Time)","process":{"pid":42578,"uid":501,"gid":20,"cwd":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend","execPath":"/usr/local/bin/node","version":"v22.14.0","argv":["/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/.bin/ts-node","/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts"],"memoryUsage":{"rss":271728640,"heapTotal":146571264,"heapUsed":117253464,"external":9018883,"arrayBuffers":5092950}},"os":{"loadavg":[1.52783203125,1.9580078125,2.81982421875],"uptime":532259},"trace":[{"column":11,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js","function":"Function.use","line":217,"method":"use","native":false},{"column":14,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","function":"App.initializeMiddlewares","line":50,"method":"initializeMiddlewares","native":false},{"column":10,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","function":"new App","line":29,"method":null,"native":false},{"column":13,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1554,"method":"_compile","native":false},{"column":23,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts","function":"Module.m._compile","line":1618,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1706,"method":null,"native":false},{"column":12,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts","function":"Object.require.extensions.<computed> [as .ts]","line":1621,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1289,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1108,"method":"_load","native":false}]}}
+2025-03-22 12:56:15 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js:217:11)
+    at App.initializeMiddlewares (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:50:14)
+    at new App (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:29:10)
+    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts:7:13)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Module.m._compile (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1618:23)
+    at node:internal/modules/cjs/loader:1706:10
+    at Object.require.extensions.<computed> [as .ts] (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12) | {"metadata":{"error":{},"stack":"TypeError: app.use() requires a middleware function\n    at Function.use (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js:217:11)\n    at App.initializeMiddlewares (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:50:14)\n    at new App (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:29:10)\n    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts:7:13)\n    at Module._compile (node:internal/modules/cjs/loader:1554:14)\n    at Module.m._compile (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1618:23)\n    at node:internal/modules/cjs/loader:1706:10\n    at Object.require.extensions.<computed> [as .ts] (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1289:32)\n    at Function._load (node:internal/modules/cjs/loader:1108:12)","exception":true,"date":"Sat Mar 22 2025 12:56:15 GMT+0100 (Central European Standard Time)","process":{"pid":42610,"uid":501,"gid":20,"cwd":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend","execPath":"/usr/local/bin/node","version":"v22.14.0","argv":["/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/.bin/ts-node","/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts"],"memoryUsage":{"rss":281395200,"heapTotal":147619840,"heapUsed":117523024,"external":9018875,"arrayBuffers":5092942}},"os":{"loadavg":[1.4462890625,1.92578125,2.79833984375],"uptime":532269},"trace":[{"column":11,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js","function":"Function.use","line":217,"method":"use","native":false},{"column":14,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","function":"App.initializeMiddlewares","line":50,"method":"initializeMiddlewares","native":false},{"column":10,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","function":"new App","line":29,"method":null,"native":false},{"column":13,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1554,"method":"_compile","native":false},{"column":23,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts","function":"Module.m._compile","line":1618,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1706,"method":null,"native":false},{"column":12,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts","function":"Object.require.extensions.<computed> [as .ts]","line":1621,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1289,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1108,"method":"_load","native":false}]}}
+2025-03-22 12:56:32 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js:217:11)
+    at App.initializeMiddlewares (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:50:14)
+    at new App (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:29:10)
+    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts:7:13)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Module.m._compile (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1618:23)
+    at node:internal/modules/cjs/loader:1706:10
+    at Object.require.extensions.<computed> [as .ts] (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12) | {"metadata":{"error":{},"stack":"TypeError: app.use() requires a middleware function\n    at Function.use (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js:217:11)\n    at App.initializeMiddlewares (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:50:14)\n    at new App (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:29:10)\n    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts:7:13)\n    at Module._compile (node:internal/modules/cjs/loader:1554:14)\n    at Module.m._compile (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1618:23)\n    at node:internal/modules/cjs/loader:1706:10\n    at Object.require.extensions.<computed> [as .ts] (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts:1621:12)\n    at Module.load (node:internal/modules/cjs/loader:1289:32)\n    at Function._load (node:internal/modules/cjs/loader:1108:12)","exception":true,"date":"Sat Mar 22 2025 12:56:32 GMT+0100 (Central European Standard Time)","process":{"pid":42641,"uid":501,"gid":20,"cwd":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend","execPath":"/usr/local/bin/node","version":"v22.14.0","argv":["/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/.bin/ts-node","/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts"],"memoryUsage":{"rss":282378240,"heapTotal":147619840,"heapUsed":117580496,"external":9018899,"arrayBuffers":5092966}},"os":{"loadavg":[1.79345703125,1.96484375,2.79052734375],"uptime":532286},"trace":[{"column":11,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/express/lib/application.js","function":"Function.use","line":217,"method":"use","native":false},{"column":14,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","function":"App.initializeMiddlewares","line":50,"method":"initializeMiddlewares","native":false},{"column":10,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","function":"new App","line":29,"method":null,"native":false},{"column":13,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1554,"method":"_compile","native":false},{"column":23,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts","function":"Module.m._compile","line":1618,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1706,"method":null,"native":false},{"column":12,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/ts-node/src/index.ts","function":"Object.require.extensions.<computed> [as .ts]","line":1621,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1289,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1108,"method":"_load","native":false}]}}
+2025-03-22 12:56:38 info: ================================= | {"metadata":{}}
+2025-03-22 12:56:38 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 12:56:38 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 12:56:38 info: ================================= | {"metadata":{}}
+2025-03-22 12:56:40 info: ================================= | {"metadata":{}}
+2025-03-22 12:56:40 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 12:56:40 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 12:56:40 info: ================================= | {"metadata":{}}
+2025-03-22 12:56:46 info: ================================= | {"metadata":{}}
+2025-03-22 12:56:46 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 12:56:46 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 12:56:46 info: ================================= | {"metadata":{}}
+2025-03-22 13:00:34 error: uncaughtException: Cannot find module './middlewares/cors.middleware'
+Require stack:
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts
+Error: Cannot find module './middlewares/cors.middleware'
+Require stack:
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:16:1)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14) | {"metadata":{"error":{"code":"MODULE_NOT_FOUND","requireStack":["/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts"]},"stack":"Error: Cannot find module './middlewares/cors.middleware'\nRequire stack:\n- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts\n- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts\n    at Function.<anonymous> (node:internal/modules/cjs/loader:1225:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._resolveFilename (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/tsconfig-paths/src/register.ts:115:36)\n    at Function._load (node:internal/modules/cjs/loader:1055:27)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n    at Module.require (node:internal/modules/cjs/loader:1311:12)\n    at require (node:internal/modules/helpers:136:16)\n    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:16:1)\n    at Module._compile (node:internal/modules/cjs/loader:1554:14)","exception":true,"date":"Sat Mar 22 2025 13:00:34 GMT+0100 (Central European Standard Time)","process":{"pid":43280,"uid":501,"gid":20,"cwd":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend","execPath":"/usr/local/bin/node","version":"v22.14.0","argv":["/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/.bin/ts-node","/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts"],"memoryUsage":{"rss":256704512,"heapTotal":130711552,"heapUsed":99585648,"external":8989537,"arrayBuffers":5076572}},"os":{"loadavg":[1.5302734375,1.78125,2.5029296875],"uptime":532528},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":null,"line":1225,"method":null,"native":false},{"column":30,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/@cspotcode/source-map-support/source-map-support.js","function":"Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue","line":811,"method":"installedValue","native":false},{"column":36,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/tsconfig-paths/src/register.ts","function":"Module._resolveFilename","line":115,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1055,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":220,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":136,"method":null,"native":false},{"column":1,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","function":null,"line":16,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1554,"method":"_compile","native":false}]}}
+2025-03-22 13:01:24 error: uncaughtException: Cannot find module './middlewares/cors.middleware'
+Require stack:
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts
+Error: Cannot find module './middlewares/cors.middleware'
+Require stack:
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts
+- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1225:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:16:1)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14) | {"metadata":{"error":{"code":"MODULE_NOT_FOUND","requireStack":["/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts"]},"stack":"Error: Cannot find module './middlewares/cors.middleware'\nRequire stack:\n- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts\n- /Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts\n    at Function.<anonymous> (node:internal/modules/cjs/loader:1225:15)\n    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)\n    at Function.Module._resolveFilename (/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/tsconfig-paths/src/register.ts:115:36)\n    at Function._load (node:internal/modules/cjs/loader:1055:27)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)\n    at Module.require (node:internal/modules/cjs/loader:1311:12)\n    at require (node:internal/modules/helpers:136:16)\n    at Object.<anonymous> (/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts:16:1)\n    at Module._compile (node:internal/modules/cjs/loader:1554:14)","exception":true,"date":"Sat Mar 22 2025 13:01:24 GMT+0100 (Central European Standard Time)","process":{"pid":43565,"uid":501,"gid":20,"cwd":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend","execPath":"/usr/local/bin/node","version":"v22.14.0","argv":["/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/.bin/ts-node","/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/server.ts"],"memoryUsage":{"rss":255000576,"heapTotal":130711552,"heapUsed":99982816,"external":8989545,"arrayBuffers":5076580}},"os":{"loadavg":[1.89599609375,1.85546875,2.48828125],"uptime":532578},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":null,"line":1225,"method":null,"native":false},{"column":30,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/@cspotcode/source-map-support/source-map-support.js","function":"Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue","line":811,"method":"installedValue","native":false},{"column":36,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/node_modules/tsconfig-paths/src/register.ts","function":"Module._resolveFilename","line":115,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1055,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":220,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1311,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":136,"method":null,"native":false},{"column":1,"file":"/Users/dennisdekkers/Downloads/var/www/eco-bags/apps/backend/src/app.ts","function":null,"line":16,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1554,"method":"_compile","native":false}]}}
+2025-03-22 13:02:21 info: ================================= | {"metadata":{}}
+2025-03-22 13:02:21 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:02:21 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:02:21 info: ================================= | {"metadata":{}}
+2025-03-22 13:02:27 info: ::1 - - [22/Mar/2025:12:02:27 +0000] "POST /submitReceipt HTTP/1.1" 404 153 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:03:34 info: ================================= | {"metadata":{}}
+2025-03-22 13:03:34 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:03:34 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:03:34 info: ================================= | {"metadata":{}}
+2025-03-22 13:03:39 info: ::1 - - [22/Mar/2025:12:03:39 +0000] "POST /submitReceipt HTTP/1.1" 404 153 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:04:04 info: ================================= | {"metadata":{}}
+2025-03-22 13:04:04 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:04:04 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:04:04 info: ================================= | {"metadata":{}}
+2025-03-22 13:04:11 info: ================================= | {"metadata":{}}
+2025-03-22 13:04:11 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:04:11 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:04:11 info: ================================= | {"metadata":{}}
+2025-03-22 13:04:32 info: ================================= | {"metadata":{}}
+2025-03-22 13:04:32 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:04:32 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:04:32 info: ================================= | {"metadata":{}}
+2025-03-22 13:04:36 error: [POST] /submitReceipt >> StatusCode:: 500, Message:: Not allowed by CORS | {"metadata":{}}
+2025-03-22 13:04:36 info: ::1 - - [22/Mar/2025:12:04:36 +0000] "POST /submitReceipt HTTP/1.1" 500 1203 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:04:41 error: [POST] /submitReceipt >> StatusCode:: 500, Message:: Not allowed by CORS | {"metadata":{}}
+2025-03-22 13:04:41 info: ::1 - - [22/Mar/2025:12:04:41 +0000] "POST /submitReceipt HTTP/1.1" 500 1203 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:04:55 info: ================================= | {"metadata":{}}
+2025-03-22 13:04:55 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:04:55 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:04:55 info: ================================= | {"metadata":{}}
+2025-03-22 13:05:10 info: ================================= | {"metadata":{}}
+2025-03-22 13:05:10 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:05:10 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:05:10 info: ================================= | {"metadata":{}}
+2025-03-22 13:05:14 info: ::1 - - [22/Mar/2025:12:05:14 +0000] "POST /submitReceipt HTTP/1.1" 404 153 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:06:27 info: ::1 - - [22/Mar/2025:12:06:27 +0000] "POST /submitReceipt HTTP/1.1" 404 153 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:09:36 info: ================================= | {"metadata":{}}
+2025-03-22 13:09:36 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:09:36 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:09:36 info: ================================= | {"metadata":{}}
+2025-03-22 13:09:48 info: ::1 - - [22/Mar/2025:12:09:48 +0000] "POST /submitReceipt HTTP/1.1" 404 153 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:09:58 info: ::1 - - [22/Mar/2025:12:09:58 +0000] "GET /submitReceipt HTTP/1.1" 404 152 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:10:13 info: ================================= | {"metadata":{}}
+2025-03-22 13:10:13 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:10:13 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:10:13 info: ================================= | {"metadata":{}}
+2025-03-22 13:10:21 info: ::1 - - [22/Mar/2025:12:10:21 +0000] "POST /submitReceipt HTTP/1.1" 404 153 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:11:16 info: ::1 - - [22/Mar/2025:12:11:16 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:11:17 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: Error validating image | {"metadata":{}}
+2025-03-22 13:11:17 info: ::1 - - [22/Mar/2025:12:11:17 +0000] "POST /api/submitReceipt HTTP/1.1" 500 448 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:11:30 info: ::1 - - [22/Mar/2025:12:11:30 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:11:31 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: Error validating image | {"metadata":{}}
+2025-03-22 13:11:31 info: ::1 - - [22/Mar/2025:12:11:31 +0000] "POST /api/submitReceipt HTTP/1.1" 500 448 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:12:59 info: ================================= | {"metadata":{}}
+2025-03-22 13:12:59 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:12:59 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:12:59 info: ================================= | {"metadata":{}}
+2025-03-22 13:13:05 info: ::1 - - [22/Mar/2025:12:13:05 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:13:09 info: ::1 - - [22/Mar/2025:12:13:09 +0000] "POST /api/submitReceipt HTTP/1.1" 400 433 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:13:21 info: ::1 - - [22/Mar/2025:12:13:21 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:13:24 info: ::1 - - [22/Mar/2025:12:13:24 +0000] "POST /api/submitReceipt HTTP/1.1" 400 434 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:13:52 info: ::1 - - [22/Mar/2025:12:13:52 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:13:57 info: ::1 - - [22/Mar/2025:12:13:57 +0000] "POST /api/submitReceipt HTTP/1.1" 400 434 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:14:05 info: ::1 - - [22/Mar/2025:12:14:05 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:14:09 info: ::1 - - [22/Mar/2025:12:14:09 +0000] "POST /api/submitReceipt HTTP/1.1" 400 433 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:15:06 info: ================================= | {"metadata":{}}
+2025-03-22 13:15:06 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:15:06 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:15:06 info: ================================= | {"metadata":{}}
+2025-03-22 13:15:10 info: ::1 - - [22/Mar/2025:12:15:10 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:15:14 info: ::1 - - [22/Mar/2025:12:15:14 +0000] "POST /api/submitReceipt HTTP/1.1" 400 434 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:15:40 info: ================================= | {"metadata":{}}
+2025-03-22 13:15:40 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:15:40 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:15:40 info: ================================= | {"metadata":{}}
+2025-03-22 13:15:44 info: ::1 - - [22/Mar/2025:12:15:44 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:15:52 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: Error validating image | {"metadata":{}}
+2025-03-22 13:15:52 info: ::1 - - [22/Mar/2025:12:15:52 +0000] "POST /api/submitReceipt HTTP/1.1" 500 447 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:16:44 info: ================================= | {"metadata":{}}
+2025-03-22 13:16:44 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:16:44 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:16:44 info: ================================= | {"metadata":{}}
+2025-03-22 13:16:49 info: ::1 - - [22/Mar/2025:12:16:49 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:16:53 info: ::1 - - [22/Mar/2025:12:16:53 +0000] "POST /api/submitReceipt HTTP/1.1" 400 434 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:17:21 info: ================================= | {"metadata":{}}
+2025-03-22 13:17:21 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:17:21 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:17:21 info: ================================= | {"metadata":{}}
+2025-03-22 13:17:25 info: ::1 - - [22/Mar/2025:12:17:25 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:17:31 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: Error processing image: Missing required properties. | {"metadata":{}}
+2025-03-22 13:17:31 info: ::1 - - [22/Mar/2025:12:17:31 +0000] "POST /api/submitReceipt HTTP/1.1" 500 365 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:18:38 info: ::1 - - [22/Mar/2025:12:18:38 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:18:38 error: [POST] /api/submitReceipt >> StatusCode:: 400, Message:: Invalid image format | {"metadata":{}}
+2025-03-22 13:18:38 info: ::1 - - [22/Mar/2025:12:18:38 +0000] "POST /api/submitReceipt HTTP/1.1" 400 799 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:18:51 info: ::1 - - [22/Mar/2025:12:18:51 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:18:51 error: [POST] /api/submitReceipt >> StatusCode:: 400, Message:: Invalid image format | {"metadata":{}}
+2025-03-22 13:18:51 info: ::1 - - [22/Mar/2025:12:18:51 +0000] "POST /api/submitReceipt HTTP/1.1" 400 799 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:18:57 info: ::1 - - [22/Mar/2025:12:18:57 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:18:57 error: [POST] /api/submitReceipt >> StatusCode:: 400, Message:: Invalid image format | {"metadata":{}}
+2025-03-22 13:18:57 info: ::1 - - [22/Mar/2025:12:18:57 +0000] "POST /api/submitReceipt HTTP/1.1" 400 799 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:19:34 info: ::1 - - [22/Mar/2025:12:19:34 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:19:34 error: [POST] /api/submitReceipt >> StatusCode:: 400, Message:: Invalid image format | {"metadata":{}}
+2025-03-22 13:19:34 info: ::1 - - [22/Mar/2025:12:19:34 +0000] "POST /api/submitReceipt HTTP/1.1" 400 799 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:19:45 info: ::1 - - [22/Mar/2025:12:19:45 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:19:45 error: [POST] /api/submitReceipt >> StatusCode:: 400, Message:: Invalid image format | {"metadata":{}}
+2025-03-22 13:19:45 info: ::1 - - [22/Mar/2025:12:19:45 +0000] "POST /api/submitReceipt HTTP/1.1" 400 799 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:20:46 info: ::1 - - [22/Mar/2025:12:20:46 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:20:46 error: [POST] /api/submitReceipt >> StatusCode:: 400, Message:: Invalid image format | {"metadata":{}}
+2025-03-22 13:20:46 info: ::1 - - [22/Mar/2025:12:20:46 +0000] "POST /api/submitReceipt HTTP/1.1" 400 799 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:21:01 info: ::1 - - [22/Mar/2025:12:21:01 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:21:01 error: [POST] /api/submitReceipt >> StatusCode:: 400, Message:: Invalid image format | {"metadata":{}}
+2025-03-22 13:21:01 info: ::1 - - [22/Mar/2025:12:21:01 +0000] "POST /api/submitReceipt HTTP/1.1" 400 799 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:22:58 info: ================================= | {"metadata":{}}
+2025-03-22 13:22:58 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:22:58 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:22:58 info: ================================= | {"metadata":{}}
+2025-03-22 13:23:04 info: ::1 - - [22/Mar/2025:12:23:04 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:23:04 error: [POST] /api/submitReceipt >> StatusCode:: 400, Message:: Invalid image format | {"metadata":{}}
+2025-03-22 13:23:04 info: ::1 - - [22/Mar/2025:12:23:04 +0000] "POST /api/submitReceipt HTTP/1.1" 400 799 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:23:20 info: ================================= | {"metadata":{}}
+2025-03-22 13:23:20 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:23:20 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:23:20 info: ================================= | {"metadata":{}}
+2025-03-22 13:23:27 info: ::1 - - [22/Mar/2025:12:23:27 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:23:27 error: [POST] /api/submitReceipt >> StatusCode:: 400, Message:: Invalid image format | {"metadata":{}}
+2025-03-22 13:23:27 info: ::1 - - [22/Mar/2025:12:23:27 +0000] "POST /api/submitReceipt HTTP/1.1" 400 799 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:24:31 info: ::1 - - [22/Mar/2025:12:24:31 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:24:31 error: [POST] /api/submitReceipt >> StatusCode:: 400, Message:: Invalid image format | {"metadata":{}}
+2025-03-22 13:24:31 info: ::1 - - [22/Mar/2025:12:24:31 +0000] "POST /api/submitReceipt HTTP/1.1" 400 799 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:25:39 info: ================================= | {"metadata":{}}
+2025-03-22 13:25:39 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:25:39 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:25:39 info: ================================= | {"metadata":{}}
+2025-03-22 13:25:46 info: ::1 - - [22/Mar/2025:12:25:46 +0000] "POST /submitReceipt HTTP/1.1" 404 153 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:26:06 info: ::1 - - [22/Mar/2025:12:26:06 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:26:06 error: [POST] /api/submitReceipt >> StatusCode:: 400, Message:: Invalid image format | {"metadata":{}}
+2025-03-22 13:26:06 info: ::1 - - [22/Mar/2025:12:26:06 +0000] "POST /api/submitReceipt HTTP/1.1" 400 799 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:27:17 info: ::1 - - [22/Mar/2025:12:27:17 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:27:20 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: Error processing image: Missing required properties. | {"metadata":{}}
+2025-03-22 13:27:20 info: ::1 - - [22/Mar/2025:12:27:20 +0000] "POST /api/submitReceipt HTTP/1.1" 500 365 "http://localhost:8082/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:27:27 info: ::1 - - [22/Mar/2025:12:27:27 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:27:30 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: Error processing image: Missing required properties. | {"metadata":{}}
+2025-03-22 13:27:30 info: ::1 - - [22/Mar/2025:12:27:30 +0000] "POST /api/submitReceipt HTTP/1.1" 500 365 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:28:14 info: ================================= | {"metadata":{}}
+2025-03-22 13:28:14 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:28:14 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:28:14 info: ================================= | {"metadata":{}}
+2025-03-22 13:28:19 info: ::1 - - [22/Mar/2025:12:28:19 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:28:21 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: Error processing image: Missing required properties. | {"metadata":{}}
+2025-03-22 13:28:21 info: ::1 - - [22/Mar/2025:12:28:21 +0000] "POST /api/submitReceipt HTTP/1.1" 500 365 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:28:51 info: ::1 - - [22/Mar/2025:12:28:51 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:28:55 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: Error processing image: Missing required properties. | {"metadata":{}}
+2025-03-22 13:28:55 info: ::1 - - [22/Mar/2025:12:28:55 +0000] "POST /api/submitReceipt HTTP/1.1" 500 365 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:29:08 info: ::1 - - [22/Mar/2025:12:29:08 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:29:12 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: Error processing image: Missing required properties. | {"metadata":{}}
+2025-03-22 13:29:12 info: ::1 - - [22/Mar/2025:12:29:12 +0000] "POST /api/submitReceipt HTTP/1.1" 500 365 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:29:33 info: ================================= | {"metadata":{}}
+2025-03-22 13:29:33 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:29:33 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:29:33 info: ================================= | {"metadata":{}}
+2025-03-22 13:29:39 info: ::1 - - [22/Mar/2025:12:29:39 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:29:43 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: Error processing image: Missing required properties. | {"metadata":{}}
+2025-03-22 13:29:43 info: ::1 - - [22/Mar/2025:12:29:43 +0000] "POST /api/submitReceipt HTTP/1.1" 500 365 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:30:12 info: ================================= | {"metadata":{}}
+2025-03-22 13:30:12 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:30:12 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:30:12 info: ================================= | {"metadata":{}}
+2025-03-22 13:30:16 info: ::1 - - [22/Mar/2025:12:30:16 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:30:21 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: Invalid OpenAI response structure. | {"metadata":{}}
+2025-03-22 13:30:21 info: ::1 - - [22/Mar/2025:12:30:21 +0000] "POST /api/submitReceipt HTTP/1.1" 500 329 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:30:34 info: ::1 - - [22/Mar/2025:12:30:34 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:30:40 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: Invalid OpenAI response structure. | {"metadata":{}}
+2025-03-22 13:30:40 info: ::1 - - [22/Mar/2025:12:30:40 +0000] "POST /api/submitReceipt HTTP/1.1" 500 329 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:31:36 info: ::1 - - [22/Mar/2025:12:31:36 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:31:40 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: Invalid OpenAI response structure. | {"metadata":{}}
+2025-03-22 13:31:40 info: ::1 - - [22/Mar/2025:12:31:40 +0000] "POST /api/submitReceipt HTTP/1.1" 500 329 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:31:48 info: ::1 - - [22/Mar/2025:12:31:48 +0000] "GET /api/submitReceipt HTTP/1.1" 404 156 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" | {"metadata":{}}
+2025-03-22 13:31:57 info: ::1 - - [22/Mar/2025:12:31:57 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:32:02 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: Invalid OpenAI response structure. | {"metadata":{}}
+2025-03-22 13:32:02 info: ::1 - - [22/Mar/2025:12:32:02 +0000] "POST /api/submitReceipt HTTP/1.1" 500 329 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:32:37 info: ::1 - - [22/Mar/2025:12:32:37 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:32:40 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: Invalid OpenAI response structure. | {"metadata":{}}
+2025-03-22 13:32:40 info: ::1 - - [22/Mar/2025:12:32:40 +0000] "POST /api/submitReceipt HTTP/1.1" 500 329 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:33:16 info: ================================= | {"metadata":{}}
+2025-03-22 13:33:16 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:33:16 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:33:16 info: ================================= | {"metadata":{}}
+2025-03-22 13:33:22 info: ::1 - - [22/Mar/2025:12:33:22 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:33:24 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: Invalid OpenAI response structure. | {"metadata":{}}
+2025-03-22 13:33:24 info: ::1 - - [22/Mar/2025:12:33:24 +0000] "POST /api/submitReceipt HTTP/1.1" 500 329 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:33:57 info: ================================= | {"metadata":{}}
+2025-03-22 13:33:57 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:33:57 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:33:57 info: ================================= | {"metadata":{}}
+2025-03-22 13:34:03 info: ::1 - - [22/Mar/2025:12:34:03 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:34:06 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: Error processing image: Missing required properties. | {"metadata":{}}
+2025-03-22 13:34:06 info: ::1 - - [22/Mar/2025:12:34:06 +0000] "POST /api/submitReceipt HTTP/1.1" 500 365 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:34:23 info: ================================= | {"metadata":{}}
+2025-03-22 13:34:23 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:34:23 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:34:23 info: ================================= | {"metadata":{}}
+2025-03-22 13:34:24 info: ================================= | {"metadata":{}}
+2025-03-22 13:34:24 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:34:24 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:34:24 info: ================================= | {"metadata":{}}
+2025-03-22 13:34:30 info: ::1 - - [22/Mar/2025:12:34:30 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:34:36 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: An unexpected error occurred while processing the receipt. | {"metadata":{}}
+2025-03-22 13:34:36 info: ::1 - - [22/Mar/2025:12:34:36 +0000] "POST /api/submitReceipt HTTP/1.1" 500 378 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:34:42 info: ::1 - - [22/Mar/2025:12:34:42 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:34:48 error: [POST] /api/submitReceipt >> StatusCode:: 500, Message:: An unexpected error occurred while processing the receipt. | {"metadata":{}}
+2025-03-22 13:34:48 info: ::1 - - [22/Mar/2025:12:34:48 +0000] "POST /api/submitReceipt HTTP/1.1" 500 378 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:35:19 info: ================================= | {"metadata":{}}
+2025-03-22 13:35:19 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:35:19 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:35:19 info: ================================= | {"metadata":{}}
+2025-03-22 13:35:25 info: ================================= | {"metadata":{}}
+2025-03-22 13:35:25 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:35:25 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:35:25 info: ================================= | {"metadata":{}}
+2025-03-22 13:35:28 info: ================================= | {"metadata":{}}
+2025-03-22 13:35:28 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:35:28 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:35:28 info: ================================= | {"metadata":{}}
+2025-03-22 13:35:32 info: ::1 - - [22/Mar/2025:12:35:32 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:35:47 info: ::1 - - [22/Mar/2025:12:35:47 +0000] "POST /api/submitReceipt HTTP/1.1" 500 286 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:41:57 info: ================================= | {"metadata":{}}
+2025-03-22 13:41:57 info: ======= ENV: development ======= | {"metadata":{}}
+2025-03-22 13:41:57 info: 🚀 App listening on the port 4000 | {"metadata":{}}
+2025-03-22 13:41:57 info: ================================= | {"metadata":{}}
+2025-03-22 13:42:15 info: ::1 - - [22/Mar/2025:12:42:15 +0000] "OPTIONS /api/submitReceipt HTTP/1.1" 204 0 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}
+2025-03-22 13:42:29 info: ::1 - - [22/Mar/2025:12:42:29 +0000] "POST /api/submitReceipt HTTP/1.1" 500 286 "http://localhost:8082/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36" | {"metadata":{}}

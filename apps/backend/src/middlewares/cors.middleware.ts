@@ -1,24 +1,19 @@
+import { Request, Response, NextFunction } from 'express';
 import cors from 'cors';
-import { NODE_ENV, ORIGIN, CREDENTIALS } from '@config';
+import { ORIGIN, CREDENTIALS } from '@config';
 
-const allowedOrigins = ORIGIN.split(',').map(origin => origin.trim());
-
-export const corsMiddleware = cors({
-  origin: function(origin, callback) {
-    // Allow requests with no origin (like mobile apps or curl requests)
-    if (!origin) return callback(null, true);
-    
-    if (NODE_ENV === 'development' || allowedOrigins.indexOf(origin) !== -1) {
+const corsOptions = {
+  origin: function (origin: string | undefined, callback: (error: Error | null, allow?: boolean) => void) {
+    const allowedOrigins = ORIGIN.split(',').map(origin => origin.trim());
+    if (!origin || allowedOrigins.indexOf(origin) !== -1) {
       callback(null, true);
     } else {
-      callback(new Error(`Origin ${origin} not allowed by CORS`));
+      callback(new Error('Not allowed by CORS'));
     }
   },
-  credentials: true, // Always allow credentials
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept', 'Origin'],
-  exposedHeaders: ['Content-Range', 'X-Content-Range'],
-  maxAge: 600,
-  preflightContinue: false,
-  optionsSuccessStatus: 204
-}); 
+  credentials: CREDENTIALS,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept'],
+};
+
+export const corsMiddleware = cors(corsOptions);

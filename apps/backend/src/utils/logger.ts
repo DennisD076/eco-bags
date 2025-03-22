@@ -5,14 +5,20 @@ import winstonDaily from 'winston-daily-rotate-file';
 import { LOG_DIR } from '../config';
 
 // logs dir
-const logDir: string = join(__dirname, LOG_DIR);
+const logDir: string = join(process.cwd(), LOG_DIR);
 
 if (!existsSync(logDir)) {
-  mkdirSync(logDir);
+  mkdirSync(logDir, { recursive: true });
 }
 
 // Define log format
-const logFormat = winston.format.printf(({ timestamp, level, message }) => `${timestamp} ${level}: ${message}`);
+const logFormat = winston.format.printf(({ timestamp, level, message, ...metadata }) => {
+  let msg = `${timestamp} ${level}: ${message}`;
+  if (metadata && Object.keys(metadata).length > 0) {
+    msg += ` | ${JSON.stringify(metadata)}`;
+  }
+  return msg;
+});
 
 /*
  * Log Level
@@ -23,6 +29,7 @@ const logger = winston.createLogger({
     winston.format.timestamp({
       format: 'YYYY-MM-DD HH:mm:ss',
     }),
+    winston.format.metadata({ fillExcept: ['message', 'level', 'timestamp'] }),
     logFormat,
   ),
   transports: [
@@ -52,9 +59,49 @@ const logger = winston.createLogger({
 
 logger.add(
   new winston.transports.Console({
-    format: winston.format.combine(winston.format.splat(), winston.format.colorize()),
+    format: winston.format.combine(
+      winston.format.splat(),
+      winston.format.colorize(),
+      winston.format.metadata({ fillExcept: ['message', 'level', 'timestamp'] }),
+      logFormat,
+    ),
   }),
 );
+
+// Enhanced debug functions
+const debug = {
+  request: (method: string, url: string, body?: any) => {
+    logger.debug('Request', { method, url, body });
+  },
+  response: (method: string, url: string, status: number, body?: any) => {
+    logger.debug('Response', { method, url, status, body });
+  },
+  error: (error: Error, context?: any) => {
+    logger.error('Error', { 
+      message: error.message, 
+      stack: error.stack,
+      ...context 
+    });
+  },
+  api: (service: string, method: string, params?: any) => {
+    logger.debug('API Call', { service, method, params });
+  },
+  db: (operation: string, collection: string, query?: any) => {
+    logger.debug('Database', { operation, collection, query });
+  },
+  performance: (label: string, timeInMs: number) => {
+    logger.debug('Performance', { label, timeInMs });
+  },
+  state: (component: string, data: any) => {
+    logger.debug('State Change', { component, data });
+  },
+  validation: (schema: string, data: any, errors?: any) => {
+    logger.debug('Validation', { schema, data, errors });
+  },
+  security: (event: string, data: any) => {
+    logger.debug('Security', { event, data });
+  }
+};
 
 const stream = {
   write: (message: string) => {
@@ -62,4 +109,4 @@ const stream = {
   },
 };
 
-export { logger, stream };
+export { logger, stream, debug };

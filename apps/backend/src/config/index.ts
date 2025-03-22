@@ -1,7 +1,7 @@
 import { config } from 'dotenv';
 import { mnemonic } from '@vechain/sdk-core';
 import { ValidateEnv } from '@utils/validateEnv';
-config({ path: `.env.${process.env.NODE_ENV || 'development'}.local` });
+config({ path: `.env` });
 
 const validatedEnv = ValidateEnv();
 

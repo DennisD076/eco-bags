@@ -21,14 +21,13 @@ export const useSubmission = create<useSubmissionState>((set) => ({
     set({
       response: {
         ...response,
-        validation: response.validation ?? {
-          validityFactor: response.confidenceScore > 0.8 ? 1 : 0,
-          descriptionOfAnalysis:
-            response.detailedAnalysis || response.message || "⚠️ No validation data received.",
+        validation: {
+          isValid: response.confidenceScore > 0.8,
+          reason: response.detailedAnalysis || "No validation reason provided."
         },
-        detailedAnalysis: response.detailedAnalysis ?? "⚠️ No detailed analysis provided.",
-        receiptDetected: Boolean(response.receiptDetected), // ✅ Ensures it's always a boolean
-        receiptValid: Boolean(response.receiptValid), // ✅ Ensures it's always a boolean
+        detailedAnalysis: response.detailedAnalysis || "⚠️ No detailed analysis provided.",
+        receiptDetected: Boolean(response.receiptDetected),
+        receiptValid: Boolean(response.receiptValid),
       },
     });
   },

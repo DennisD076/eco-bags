@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/dennisdekkers/Downloads/var/www/eco-bags/logs/error/.8f44d706eb8253f6b6f0904439e75d8cdea81541-audit.json",
+    "files": [
+        {
+            "date": 1742634736350,
+            "name": "/Users/dennisdekkers/Downloads/var/www/eco-bags/logs/error/2025-03-22.log",
+            "hash": "d54d569d32fc1c62de5c6b3c92f0c820a095f858135ab4a6ea6b78be8ea8e88e"
+        }
+    ],
+    "hashType": "sha256"
+}

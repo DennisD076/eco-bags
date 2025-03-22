@@ -43,6 +43,14 @@ export const resizeImage = async (file: File) => {
 export const blobToBase64 = async (blob: Blob): Promise<string> =>
   new Promise((resolve) => {
     const reader = new FileReader();
-    reader.onloadend = () => resolve(reader.result as string);
+    reader.onloadend = () => {
+      const base64String = reader.result as string;
+      // Ensure we have the proper data URL format
+      if (!base64String.startsWith('data:')) {
+        resolve(`data:${blob.type};base64,${base64String}`);
+      } else {
+        resolve(base64String);
+      }
+    };
     reader.readAsDataURL(blob);
   });

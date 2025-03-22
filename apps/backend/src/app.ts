@@ -13,7 +13,7 @@ import { Routes } from '@interfaces/routes.interface';
 import { ErrorMiddleware } from '@middlewares/error.middleware';
 import { logger, stream } from '@utils/logger';
 import bodyParser from 'body-parser';
-import { corsMiddleware } from './middlewares/cors.middelware';
+import { corsMiddleware } from '@middlewares/cors.middleware';
 
 export class App {
   public app: express.Application;
@@ -23,7 +23,7 @@ export class App {
   constructor(routes: Routes[]) {
     this.app = express();
     this.env = NODE_ENV || 'development';
-    this.port = PORT || 3000;
+    this.port = PORT || 4000;
 
     this.initializeLimits();
     this.initializeMiddlewares();
@@ -58,7 +58,7 @@ export class App {
 
   private initializeRoutes(routes: Routes[]) {
     routes.forEach(route => {
-      this.app.use('/', route.router);
+      this.app.use('/api', route.router);
     });
   }
 
